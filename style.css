@@ -1,11 +1,23 @@
 @charset "UTF-8";
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
+    height: 100vh;
+    box-sizing: border-box;
     background-color: antiquewhite;
     color: black;
 
 }
 
-strong {
+.apresentacao {
+    display: flex;
+    align-items: center;
+}
+
+.negrito {
     color:blue;
 }
